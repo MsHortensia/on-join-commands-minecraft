@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "on-join-commands",
+  "version": "${version}",
+  "name": "On Join Commands",
+  "description": "Executes configured client and server commands when joining a world.",
+  "authors": [
+    "MsHortensia"
+  ],
+  "icon": "assets/on-join-commands/icon.png",
+  "environment": "client",
+
+  "entrypoints": {
+    "client": [
+      "io.github.mshortensia.onjoincommands.OnJoinCommandsClient"
+    ]
+  },
+
+  "mixins": [
+    "onjoincommands.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
