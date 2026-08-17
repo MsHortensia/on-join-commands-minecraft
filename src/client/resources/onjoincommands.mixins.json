@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.mshortensia.onjoincommands.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ClientPacketListenerAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
